@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --prime-bg-color: #ffffff;
     --footer-bg-color:#2F303A;
     --third-bg-color:#F5F4FA;
@@ -20,7 +20,7 @@ body{
     letter-spacing: 0.03em;
 }
 
-/* Common styles */
+
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
@@ -31,7 +31,7 @@ img {
 }
 address {
     font-style: normal;
-}
+} 
 
 .section {
     padding-top: 94px;
@@ -42,7 +42,8 @@ address {
 }
 .section--bgc-change {
     background-color: var(--third-bg-color);
-}
+} 
+
 .list{
     list-style: none;
     font-style: normal;
@@ -51,19 +52,54 @@ address {
 }
 .link {
     text-decoration: none; 
+}  */
+
+/* .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: auto;
+    margin-left: auto;
+    
+    width: 200px;
+    height: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    background-color: var(--focus-color);
+    color: var(--prime-bg-color);
+
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
+    cursor: pointer;
+    
+    transition: background-color 250ms var(--transaction-time),
+    box-shadow 250ms var(--transaction-time);
 }
 
-
-.logo{
+.btn:hover,
+.btn:focus {
+    background-color: var(--btn-hv-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+} */
+/* .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: var(--focus-color);
-}
-.contact {
+} */
+/* .contact {
     display: flex;
     align-items: center;
+    justify-content: center;
 
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -75,10 +111,10 @@ address {
 .contact:hover,
 .contact:focus {
     color: var(--focus-color);
-}
+} */
 
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -90,23 +126,23 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.container {
+} */
+/* .container {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 
-}
-.flex-centered{
+} */
+/* .flex-centered{
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 /* Header styles */
-.header{ 
+/* .header{ 
     border-bottom: #ECECEC 1px solid;
 }
 
@@ -165,7 +201,7 @@ address {
     height: 4px;
     background-color:var(--focus-color);
     border-radius: 2px;
-}
+} */
 
 
 
@@ -174,15 +210,16 @@ address {
 
 /* Hero section style */
 
-.sections-title{
+/* .sections-title{
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     color: var(--secondary-txt-color);
-}
-.hero{
+} */
+
+/* .hero{
     max-width: 1600px;
     height: 600px;
     margin-right: auto;
@@ -213,38 +250,12 @@ address {
     text-transform: uppercase;
     color: var(--prime-bg-color);
     
-}
-.prime-btn{
-    display: inline-block;
-    padding: 10px 32px;
-    
-    background-color: var(--focus-color);
-    text-align: center;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: var(--prime-bg-color);
+} */
 
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 
-    cursor: pointer;
-
-    transition: background-color 250ms var(--transaction-time), 
-        box-shadow 250ms var(--transaction-time) ;
-}
-
-.prime-btn:hover, .prime-btn:focus {
-    background-color: var(--btn-hv-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
 /* feedback form style  */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -418,38 +429,6 @@ address {
   
 
 
-.form-submit-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-
-    padding: 10px 55px;
-    
-    
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    
-    color: #FFFFFF;
-    background-color: var(--focus-color);
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-
-    cursor: pointer;
-
-    transition: background-color 250ms var(--transaction-time);
-}
-
-.form-submit-btn:hover, .form-submit-btn:focus {
-    background-color: #188CE8;
-       
-}
 
 .close-btn{
 
@@ -479,11 +458,11 @@ address {
 }
 .close-btn:hover, .close-btn:focus {
     fill: var(--focus-color);
-}
+} */
 
 /* why choose us section styles */
 
-.why-list{
+/* .why-list{
     gap: 30px;
 }
 .why-list__item{
@@ -510,9 +489,9 @@ address {
 }
 .why-list__description{
     line-height: 1.71;
-}
+} */
 /* Section-work-list styles*/
-
+/* 
 .work-list{
     gap: 30px;
 }
@@ -538,12 +517,12 @@ address {
  
     color: var(--prime-bg-color);
 
-}
+} */
 
 /* employees section styles*/
 
 
-.employees-list{
+/* .employees-list{
     gap: 30px;
 }
 .employees-list__item{
@@ -573,8 +552,8 @@ address {
     font-size: 16px;
     line-height: 1.19;
     margin-bottom: 16px;
-}
-
+} */
+/* 
 .list-social-connection{
     justify-content: center;
     gap: 10px;
@@ -604,10 +583,10 @@ address {
 
 .list-social-connection__icon{
     fill: currentColor;
-}
+} */
 
 /* our clients section styles */
-
+/* 
 .clients-list{
     display: flex;
     justify-content: center;
@@ -639,11 +618,11 @@ address {
 }
 .clients-list__icon{
     fill:currentColor;
-}
+} */
     
 /* Footer styles */
 
-.footer{
+/* .footer{
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--footer-bg-color);
@@ -739,31 +718,13 @@ address {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
 }
-.signup-btn{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    margin-right: 0px;
-
-    width: 200px;
-    height: 50px;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-
-    background-color:var(--focus-color);
-    color: var(--prime-bg-color);
-    fill:var(--prime-bg-color);
+.footer__btn{
     
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    gap: 10px;
+    margin-right: 0px;
+    fill:var(--prime-bg-color);
 
-    cursor: pointer;
-}
+} */
 
 
 /* STYLES FOR PORTFOLIO */
@@ -795,8 +756,8 @@ address {
     cursor: pointer;
 
     transition: background-color 250ms var(--transaction-time),
-        color 250ms var(--transaction-time),
-        box-shadow 250ms var(--transaction-time);
+    color 250ms var(--transaction-time),
+    box-shadow 250ms var(--transaction-time);
 
 }
 .secondary-btn:hover, 

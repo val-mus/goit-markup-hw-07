@@ -1,0 +1,34 @@
+.clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clients-list__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+
+    color: #AFB1B8;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    transition: color 250ms var(--transaction-time),
+        border-color 250ms var(--transaction-time);
+
+}
+
+
+.clients-list__logo:hover,
+.clients-list__logo:focus {
+    border-color: var(--focus-color);
+    color: var(--focus-color);
+}
+
+.clients-list__icon {
+    fill: currentColor;
+}
