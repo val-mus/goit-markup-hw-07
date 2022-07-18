@@ -575,11 +575,11 @@ address {
     margin-bottom: 16px;
 }
 
-.list-fofooter__connect-txtion{
+.list-social-connection{
     justify-content: center;
     gap: 10px;
 }
-.list-fofooter__connect-txtion__link{
+.list-social-connection__link{
     display: inline-flex;
     width: 44px;
     height: 44px;
@@ -592,17 +592,17 @@ address {
     transition: color 250ms var(--transaction-time),
     background-color 250ms var(--transaction-time);
 }
-.list-fofooter__connect-txtion__link--inverse-bgc {
+.list-social-connection__link--inverse-bgc {
     color: var(--prime-bg-color);
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.list-fofooter__connect-txtion__link:hover, .list-fofooter__connect-txtion__link:focus {
+.list-social-connection__link:hover, .list-social-connection__link:focus {
     background-color:var(--focus-color);
     color: var(--prime-bg-color);
 }
 
-.list-fofooter__connect-txtion__icon{
+.list-social-connection__icon{
     fill: currentColor;
 }
 
@@ -642,6 +642,7 @@ address {
 }
     
 /* Footer styles */
+
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -683,12 +684,10 @@ address {
 }
 
 
-
-
 .footer__soc-block{
     margin-right: auto;
 }
-.fofooter__connect-txt{
+.footer__connect-txt{
     display: inline-block;
     color: var(--prime-bg-color);
     text-transform: uppercase;
@@ -709,15 +708,20 @@ address {
 .footer__contact:focus {
     color: var(--focus-color);
 }
-.footer-connect-block{
+
+
+
+.footer__connect-block{
     margin-right: 0;
     width: 570px;
 }
-.email-input-form{
+
+
+.footer__email-input-form{
     display: inline-flex;
    
 }
-.email-input{
+.footer__email-input{
     display: inline-flex;
     align-items: center;
     padding: 15px 16px;
@@ -744,8 +748,6 @@ address {
 
     width: 200px;
     height: 50px;
-
-    /* padding: 10px 28px; */
 
     font-weight: 700;
     font-size: 16px;
