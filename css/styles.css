@@ -605,10 +605,13 @@ address {
 
 
 .clients-list{
+    display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
-.client-logo{
+.clients-list__logo{
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 170px;
@@ -620,18 +623,17 @@ address {
     border-radius: 4px;
 
     transition: color 250ms var(--transaction-time), 
-        border-color 250ms var(--transaction-time);
+    border-color 250ms var(--transaction-time);
     
 }
-.client-list:not(:last-child) {
-    margin-right: 30px;
-}
-.client-logo:hover,
-.client-logo:focus{
+
+
+.clients-list__logo:hover,
+.clients-list__logo:focus{
     border-color: var(--focus-color);
     color: var(--focus-color);
 }
-.client-logo-icon{
+.clients-list__icon{
     fill:currentColor;
 }
     
