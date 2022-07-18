@@ -505,18 +505,18 @@ address {
     line-height: 1.71;
 }
 /* Section-work-list styles*/
+
 .work{
     padding-top: 0px;
   
 }
-
-.work-list > li:not(:last-child) {
-    margin-right: 30px;
+.work-list{
+    gap: 30px;
 }
-.work-present{
+.work-list__item{
     position: relative;
 }
-.work-desc{
+.work-list__desc{
     position: absolute;
     bottom: 0px;
     display: flex;
