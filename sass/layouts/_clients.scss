@@ -18,15 +18,13 @@
     border-radius: 4px;
 
     transition: color 250ms var(--transaction-time),
-        border-color 250ms var(--transaction-time);
+    border-color 250ms var(--transaction-time);
 
-}
-
-
-.clients-list__logo:hover,
-.clients-list__logo:focus {
+    &:hover,
+    &:focus {
     border-color: var(--focus-color);
     color: var(--focus-color);
+    }
 }
 
 .clients-list__icon {

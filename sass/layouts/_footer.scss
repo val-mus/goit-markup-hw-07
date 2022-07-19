@@ -35,14 +35,13 @@
     line-height: 1.71;
     color: var(--prime-bg-color);
 
-    transition: color 250ms var(--transaction-time)
-}
+    transition: color 250ms var(--transaction-time);
 
-.address-links__address:hover,
-.address-links__address:focus {
+    &:hover,
+    &:focus {
     color: var(--focus-color);
+    }
 }
-
 
 .footer__soc-block {
     margin-right: auto;
@@ -64,24 +63,20 @@
     color: rgba(255, 255, 255, 0.6);
 
     transition: color 250ms var(--transaction-time);
-}
-
-.footer__contact:hover,
-.footer__contact:focus {
+    
+    &:hover,
+    &:focus {
     color: var(--focus-color);
+    }
 }
-
 
 
 .footer__connect-block {
     margin-right: 0;
     width: 570px;
 }
-
-
 .footer__email-input-form {
     display: inline-flex;
-
 }
 
 .footer__email-input {

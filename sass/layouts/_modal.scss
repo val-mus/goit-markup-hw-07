@@ -99,6 +99,19 @@
 
     cursor: pointer;
 
+    &:hover,
+    &:focus {
+        border-color: var(--focus-color);
+    
+    &:hover + .form-icon,
+    &:focus + .form-icon {
+        color: var(--focus-color);
+}
+
+
+}
+
+
 }
 
 .input-string {
@@ -108,19 +121,6 @@
 
 
 }
-
-.input-field:hover,
-.input-field:focus {
-    border-color: var(--focus-color);
-
-}
-
-.input-field:hover+.form-icon,
-.input-field:focus+.form-icon {
-
-    color: var(--focus-color);
-}
-
 
 .form-icon {
     position: absolute;
@@ -146,12 +146,14 @@
     border-radius: 4px;
 
     outline: transparent;
+
+    &:hover,
+    &:focus {
+        border-color: var(--focus-color);
+        }
 }
 
-.comment-field:hover,
-.comment-field:focus {
-    border-color: var(--focus-color);
-}
+
 
 .user-agreement-txt {
     display: inline-flex;
@@ -170,7 +172,7 @@
     background-image: url(../images/icons/custom-check-box-icons/icon-check-2.svg);
 }
 
-.checkbox:checked+.checkbox-custom {
+.checkbox:checked + .checkbox-custom {
     border-color: var(--focus-color);
 
     background-image: url(../images/icons/custom-check-box-icons/icon-check-1.svg);
@@ -195,7 +197,6 @@
 
     padding: 0;
 
-
     position: absolute;
     top: 8px;
     ;
@@ -213,9 +214,12 @@
 
     transition: fill 250ms var(--transaction-time);
 
-}
-
-.close-btn:hover,
-.close-btn:focus {
+    &:hover,
+    &:focus {
     fill: var(--focus-color);
 }
+
+
+
+}
+
