@@ -89,9 +89,19 @@ address {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .contact {
@@ -163,10 +173,15 @@ address {
 .sections-title {
   margin-bottom: 50px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   color: var(--secondary-txt-color);
+}
+@media screen and (min-width: 1200px) {
+  .sections-title {
+    font-size: 36px;
+  }
 }
 
 .list-social-connection {
@@ -598,6 +613,10 @@ address {
 
 .employees-list {
   gap: 30px;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .employees-list__item {
@@ -631,6 +650,8 @@ address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -650,7 +671,7 @@ address {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   color: #AFB1B8;
   border: 1px solid #AFB1B8;
@@ -661,6 +682,16 @@ address {
 .clients-list__logo:hover, .clients-list__logo:focus {
   border-color: var(--focus-color);
   color: var(--focus-color);
+}
+@media screen and (min-width: 768px) {
+  .clients-list__logo {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-list__logo {
+    width: 170px;
+  }
 }
 
 .clients-list__icon {
