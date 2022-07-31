@@ -613,10 +613,6 @@ address {
 
 .employees-list {
   gap: 30px;
-  display: block;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .employees-list__item {
